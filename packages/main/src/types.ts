@@ -19,26 +19,34 @@ import TelegramInlineQueryResultPhoto from './types/TelegramInlineQueryResultPho
 import TelegramInlineQueryResultArticle from './types/TelegramInlineQueryResultArticle.js';
 import ChatPermissions from './types/ChatPermissions.js';
 
+/**
+ * 描述机器人命令的接口
+ */
+export interface BotCommand {
+    command: string;
+    description: string;
+}
+
 export default TelegramBot;
 export {
-	TelegramBot,
-	TelegramExecutionContext,
-	Webhook,
-	TelegramApi,
-	TelegramCommand,
-	TelegramFrom,
-	TelegramChat,
-	TelegramUser,
-	TelegramMessageEntity,
-	TelegramPhotoSize,
-	TelegramMessage,
-	TelegramInputMessageContent,
-	TelegramInlineQuery,
-	TelegramUpdate,
-	PartialTelegramUpdate,
-	TelegramInlineQueryType,
-	TelegramInlineQueryResult,
-	TelegramInlineQueryResultPhoto,
-	TelegramInlineQueryResultArticle,
-	ChatPermissions,
+    TelegramBot,
+    TelegramExecutionContext,
+    Webhook,
+    TelegramApi,
+    TelegramCommand,
+    TelegramFrom,
+    TelegramChat,
+    TelegramUser,
+    TelegramMessageEntity,
+    TelegramPhotoSize,
+    TelegramMessage,
+    TelegramInputMessageContent,
+    TelegramInlineQuery,
+    TelegramUpdate,
+    PartialTelegramUpdate,
+    TelegramInlineQueryType,
+    TelegramInlineQueryResult,
+    TelegramInlineQueryResultPhoto,
+    TelegramInlineQueryResultArticle,
+    ChatPermissions,
 };

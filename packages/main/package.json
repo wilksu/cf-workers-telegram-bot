@@ -1,6 +1,6 @@
 {
-	"name": "@codebam/cf-workers-telegram-bot",
-	"version": "8.1.1",
+	"name": "@wilksu/cf-workers-telegram-bot",
+	"version": "0.0.1",
 	"description": "serverless telegram bot on cf workers",
 	"main": "./dist/main.js",
 	"module": "./dist/main.js",
@@ -24,11 +24,11 @@
 		"lint": "eslint src",
 		"test": "vitest --config vitest.config.js"
 	},
-	"author": "codebam",
+	"author": "wilksu",
 	"license": "Apache-2.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/codebam/cf-workers-telegram-bot.git"
+		"url": "git+https://github.com/wilksu/cf-workers-telegram-bot.git"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20241205.0",
